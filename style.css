@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    height: 80vh;
+    width: 80vw;
+    border-radius: 5%;
+    margin: 5% auto;
+    background-color:rgba(255, 255 ,255,0.2);
+}
+#container{
+    height: 30%;
+    text-align: center;
+    margin-top: 2%;
+}
+#search-bar{
+    width: 50%;
+    height: 90%;
+    border-radius: 40%;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 3rem;
+    outline: none;
+    border: none;
+    padding: 0 5%;
+    background-color: rgba(193, 194, 194, 0.534);
+}
+#details{
+    height: 60%;
+    width:95%;
+    background-color: rgba(216, 216, 217,0.0);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+#details>h1{
+    margin: 0 auto;
+    width: 100%;
+    /* text-align: center; */
+}
+ #search-icon{
+    font-size: 2rem;
+    
+} 
+#btnSearch{
+    background-color: transparent;
+    border: 0px;
+}
+@keyframes rotator{
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}    
+}
+.day{
+    background-color: rgb(26, 241, 241);
+    
+}
+
+.night{
+    background-color: rgb(0, 0, 70);
+    color: white;
+}
+h1{
+    font-size: 3rem;
+    font-family: fantasy;
+}
+h3{
+    font-size: 1rem;
+    font-family: fantasy;
+}
+#pic > img{
+    width: 90%;
+    
+}
+#image{
+    animation: rotator 3s  infinite alternate-reverse forwards;
+}
